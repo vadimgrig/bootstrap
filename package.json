@@ -1,0 +1,22 @@
+{
+  "name": "bsnjstest",
+  "version": "1.0.0",
+  "description": "My gulp test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vadimgrig/bootstrap.git"
+  },
+  "keywords": [
+    "29321618"
+  ],
+  "author": "VadymSt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadimgrig/bootstrap/issues"
+  },
+  "homepage": "https://github.com/vadimgrig/bootstrap#readme"
+}
