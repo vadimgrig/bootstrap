@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/vadimgrig/bootstrap/issues"
   },
-  "homepage": "https://github.com/vadimgrig/bootstrap#readme"
+  "homepage": "https://github.com/vadimgrig/bootstrap#readme",
+  "devDependencies": {
+    "clean-css": "^5.3.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0"
+  }
 }
