@@ -1,0 +1,39 @@
+/*
+Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 152 of K:/Web_dev/Petrychenko/Bootstrap/sass/sass.sass
+
+147: 	font-size: 38px 
+148: 	text-transform: uppercase 
+149: .block_mBottom 
+150: 	margin-bottom: 64px 
+151: .mobile_app
+152:     min-width: 864px
+
+Backtrace:
+K:/Web_dev/Petrychenko/Bootstrap/sass/sass.sass:152
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:489:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:447:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:447:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:447:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:412:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/bin/compass:44:in `call'
+C:/Program Files (x86)/Koala/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/compass:22:in `load'
+C:/Program Files (x86)/Koala/bin/compass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 152 of K:/Web_dev/Petrychenko/Bootstrap/sass/sass.sass\A \A 147: 	font-size: 38px \A 148: 	text-transform: uppercase \A 149: .block_mBottom \A 150: 	margin-bottom: 64px \A 151: .mobile_app\A 152:     min-width: 864px"; }

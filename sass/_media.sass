@@ -1,0 +1,181 @@
+@media ( max-width: 1199px)
+    .menu
+        &_item
+            padding-right: 15px
+        &_link
+            font-size: 14px
+    .promo
+        &_header
+            font-size: 50px
+        &_subheader
+            margin-top: 26px
+            font-size: 28px
+        &_descp
+            width: 800px
+            margin-top: 26px
+    .advantage
+        .circle_descrp
+            width: 306px
+        .circle_icon
+            margin: 0
+    .footer
+        .wrapper > div
+            width: 25%
+            &:nth-child(2)
+                width: 50%
+            &:nth-child(3)
+                justify-content: center
+        &_downloadLinkApp
+            display: flex
+            flex-direction: row
+            align-items: flex-start
+            a
+                margin-bottom: 5px
+@media (max-width: 1023px)
+    .menu
+        &_item
+            padding-right: 10px
+        &_link
+            font-size: 11px
+    .promo
+        &_descp
+            width: 700px
+            margin-top: 26px
+    .advantage
+        &_block_it
+            justify-content: center
+            .circle_descrp
+                width: 208px
+                font-size: 13px
+                span
+                    font-size: 13px
+            .circle_icon
+                margin: 0
+    .footer
+        &_downloadLinkApp
+            flex-direction: row
+            align-items: flex-start
+            gap: 6px
+            img
+                width: 76px
+                height: 21px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 10px
+        &_link
+            font-size: 11px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        z-index: 1
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        background-color: rgba(0, 0, 0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin-top: 10px
+        &_link
+            font-size: 16px
+    .hamburger
+        display: block
+        position: absolute
+        width: 26px
+        height: 18px
+        right: 5%
+        top: 14px
+        span
+            display: block
+            height: 2px
+            margin-top: 4px
+            background-color: #fff
+            transition: 0.6s all
+        &_active
+            span
+                margin-top: -2px
+                &:nth-child(1)
+                    transform: translateY(10px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(10px) rotate(45deg)
+    .subheader
+        &_logo
+            img
+                width: 200px
+                height: 22px
+        &_text
+            font-size: 10px
+        &_phone
+            font-size: 20px
+        &_button
+            width: 152px
+            height: 41px
+            font-size: 10px
+    .promo
+        &_header
+            font-size: 38px
+        &_subheader
+            font-size: 24px
+        &_descp
+            font-size: 14px
+            width: 500px
+            margin-top: 26px
+    .advantage
+        &_block_it
+            flex-direction: column
+            justify-content: flex-start
+            align-items: center
+            gap: 16px
+            padding: 0 32px
+            .circle_descrp
+                text-align: left
+                margin: 0
+                width: 100%
+    .mobile_app
+        height: 700px
+        .mt_app_box
+            margin-top: 70px
+            padding-bottom: 49px
+        .app_box
+            width: 216px
+            height: 216px
+            &_subtitle
+                font-size: 18px
+    .choise
+        top: 250px
+        img
+            width: 409px
+            height: 259px
+    .footer
+        .ftNav1 a
+            font-size: 13px
+        .ftNav2 a
+            font-size: 10px
+        .wrapper
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            div
+                width: 100%
+                &:nth-child(2)
+                    width: 100%
+                    margin-top: 20px
+
+        &_downloadLinkApp
+            margin: 0
+            flex-direction: row
+            justify-content: center
+            margin-top: 20px
+        &_socialLink
+            justify-content: center
+@media (max-width: 575px)
