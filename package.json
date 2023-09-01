@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/vadimgrig/bootstrap.git"
   },
-  "keywords": [
-    "29321618"
-  ],
   "author": "VadymSt",
   "license": "ISC",
   "bugs": {
